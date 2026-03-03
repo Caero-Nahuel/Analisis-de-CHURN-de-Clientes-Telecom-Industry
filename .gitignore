@@ -208,3 +208,6 @@ __marimo__/
 
 #Imagenes
 .png
+
+# Entornos virtuales y configuración de editor
+.vscode/
