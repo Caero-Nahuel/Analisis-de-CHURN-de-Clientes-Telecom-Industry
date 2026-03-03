@@ -37,16 +37,16 @@ y reducir el impacto económico del churn.
 segmentos y factores de mayor riesgo para priorizar las acciones 
 de retención.
 
-## 🛠️ Stack Tecnológico
+## Stack Tecnológico
 `Python` `Pandas` `NumPy` `Matplotlib` `Seaborn` `Plotly`
 
-## 📊 Dataset
+## Dataset
 - Fuente: IBM Telco Customer Churn (disponible en Kaggle)
 - Registros: 7.043 clientes
 - Variables: 21 (demográficas, de contrato, de servicio y target)
 - Variable objetivo: `Churn` (Sí/No)
 
-## 🚀 Cómo ejecutar
+## Cómo ejecutar
 1. Clonar el repositorio
 2. `pip install -r requirements.txt`
 3. Ejecutar notebooks en orden numérico
