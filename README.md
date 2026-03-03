@@ -1,6 +1,10 @@
 # 📉 Customer Churn Analysis — Telecom Industry
 
 ## Descripción
+Actualmente me desempeño como Analista GTR (Gestión de Tiempo Real) 
+en una empresa de BPO/Call Center. Mi interés en este dataset surge de la 
+similitud directa entre las métricas de retención de clientes y las 
+problemáticas operativas que gestiono a diario.
 Este proyecto realiza un Análisis Exploratorio de Datos (EDA) sobre 
 una base de clientes de una empresa de telecomunicaciones, con el 
 objetivo de comprender los patrones de comportamiento asociados al 
@@ -19,7 +23,7 @@ y reducir el impacto económico del churn.
 - Variable objetivo: `Churn` (Sí/No)
 
 ## Herramientas utilizadas
-- Python 3.x
+- Python 3.10
 - Pandas, NumPy, Matplotlib, Seaborn, Plotly
 
 ## Estructura del Repositorio
@@ -32,4 +36,4 @@ y reducir el impacto económico del churn.
 [Se completan al finalizar el análisis]
 
 ## Autor
-[Tu nombre] | [LinkedIn] | [GitHub]
+Nahuel Caero | [[LinkedIn](https://www.linkedin.com/in/nahuel-agustin-caero/)] | [[GitHub](https://github.com/Caero-Nahuel/)]
