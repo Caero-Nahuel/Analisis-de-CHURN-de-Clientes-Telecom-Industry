@@ -1,4 +1,4 @@
-# 📉 Customer Churn Analysis — Telecom Industry
+# 📉 Analisis de CHURN de Clientes — Telecom Industry
 
 ## Descripción
 Actualmente me desempeño como Analista GTR (Gestión de Tiempo Real) 
