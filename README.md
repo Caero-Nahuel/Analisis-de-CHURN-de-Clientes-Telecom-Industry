@@ -1,8 +1,13 @@
 # 📉 Analisis de CHURN de Clientes — Telecom Industry
 
-[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)]()
-[![Pandas](https://img.shields.io/badge/Pandas-2.0-green.svg)]()
-[![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)]()
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)]()
+[![Pandas](https://img.shields.io/badge/Pandas-2.3-green.svg)]()
+[![Numpy](https://img.shields.io/badge/Numpy-2.2-green.svg)]()
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.10-green.svg)]()
+[![Seaborn](https://img.shields.io/badge/Seaborn-0.13-green.svg)]()
+[![Plotly](https://img.shields.io/badge/Plotly-6.6-green.svg)]()
+[![Status](https://img.shields.io/badge/Status-In_process-yellow.svg)]()
+
 
 ## Descripción
 Actualmente me desempeño como Analista GTR (Gestión de Tiempo Real) 
