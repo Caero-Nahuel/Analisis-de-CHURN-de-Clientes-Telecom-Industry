@@ -1,5 +1,9 @@
 # 📉 Analisis de CHURN de Clientes — Telecom Industry
 
+[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)]()
+[![Pandas](https://img.shields.io/badge/Pandas-2.0-green.svg)]()
+[![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)]()
+
 ## Descripción
 Actualmente me desempeño como Analista GTR (Gestión de Tiempo Real) 
 en una empresa de BPO/Call Center. Mi interés en este dataset surge de la 
@@ -16,16 +20,6 @@ uno existente. Identificar a tiempo los clientes con alta probabilidad
 de abandonar permite implementar estrategias de retención focalizadas 
 y reducir el impacto económico del churn.
 
-## Dataset
-- Fuente: IBM Telco Customer Churn (disponible en Kaggle)
-- Registros: 7.043 clientes
-- Variables: 21 (demográficas, de contrato, de servicio y target)
-- Variable objetivo: `Churn` (Sí/No)
-
-## Herramientas utilizadas
-- Python 3.10
-- Pandas, NumPy, Matplotlib, Seaborn, Plotly
-
 ## Estructura del Repositorio
 📁 data/          → Dataset original y procesado  
 📁 notebooks/     → Jupyter Notebooks por etapa  
@@ -33,7 +27,24 @@ y reducir el impacto económico del churn.
 📄 README.md      → Documentación del proyecto  
 
 ## Hallazgos Principales
-[Se completan al finalizar el análisis]
+- Problema principal: Una tasa de churn del 26.5% representa 
+~$120.000/mes en ingresos en riesgo. Este análisis identifica los 
+segmentos y factores de mayor riesgo para priorizar las acciones 
+de retención.
+
+## 🛠️ Stack Tecnológico
+`Python` `Pandas` `NumPy` `Matplotlib` `Seaborn` `Plotly`
+
+## 📊 Dataset
+- Fuente: IBM Telco Customer Churn (disponible en Kaggle)
+- Registros: 7.043 clientes
+- Variables: 21 (demográficas, de contrato, de servicio y target)
+- Variable objetivo: `Churn` (Sí/No)
+
+## 🚀 Cómo ejecutar
+1. Clonar el repositorio
+2. `pip install -r requirements.txt`
+3. Ejecutar notebooks en orden numérico
 
 ## Autor
 Nahuel Caero | [[LinkedIn](https://www.linkedin.com/in/nahuel-agustin-caero/)] | [[GitHub](https://github.com/Caero-Nahuel/)]
