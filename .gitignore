@@ -205,3 +205,9 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Ignorar todos los archivos PNG en cualquier carpeta
+*.png
+
+# Entornos virtuales y configuración de editor
+.vscode/
