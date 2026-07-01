@@ -6,7 +6,7 @@
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-3.10-green.svg)]()
 [![Seaborn](https://img.shields.io/badge/Seaborn-0.13-green.svg)]()
 [![Plotly](https://img.shields.io/badge/Plotly-6.6-green.svg)]()
-[![Status](https://img.shields.io/badge/Status-In_process-yellow.svg)]()
+[![Status](https://img.shields.io/badge/Status-Completo-brightgreen.svg)]()
 
 
 ## Descripción
@@ -27,15 +27,32 @@ y reducir el impacto económico del churn.
 
 ## Estructura del Repositorio
 📁 data/          → Dataset original y procesado  
-📁 notebooks/     → Jupyter Notebooks por etapa  
-📁 visuals/       → Gráficos exportados  
+📁 notebooks/     → 5 notebooks (exploración → conclusiones)  
+📁 visuals/       → Gráficos exportados del análisis  
+📁 reports/       → Informe ejecutivo con recomendaciones  
 📄 README.md      → Documentación del proyecto  
 
 ## Hallazgos Principales
-- Problema principal: Una tasa de churn del 26.5% representa 
-~$120.000/mes en ingresos en riesgo. Este análisis identifica los 
-segmentos y factores de mayor riesgo para priorizar las acciones 
-de retención.
+- **Tasa de churn:** 26.5% (~1.869 clientes, ~$120.000/mes en riesgo).
+- **Tipo de contrato:** Clientes con contrato mensual abandonan 14x más (42%) que los de contrato bianual (3%).
+- **Servicios contratados:** Fiber Optic duplica el churn (42% vs 19% en DSL). Ausencia de Online Security o Tech Support eleva el churn a ~42%.
+- **Antigüedad:** Los primeros 6 meses son críticos (~47% de churn). Después del año, la tasa cae a ~10%.
+- **Correlaciones:** Tenure (-0.35) y MonthlyCharges (+0.19) son las variables numéricas más asociadas al churn.
+
+## Conclusiones y Recomendaciones
+
+El análisis permite construir un perfil del cliente en riesgo:
+contrato mensual + Fiber Optic + sin servicios de seguridad/soporte
++ antigüedad < 6 meses + pago con Electronic Check.
+
+### Recomendaciones
+1. **Migrar contratos** mensuales a anuales/bianuales con incentivos.
+2. **Programa de onboarding** intensivo durante los primeros 6 meses.
+3. **Incluir** Online Security y Tech Support en el plan básico.
+4. **Revisar precios** de Fiber Optic frente a la competencia.
+5. **Incentivar** débito automático o tarjeta sobre Electronic Check.
+
+> Ver detalle completo en [`reports/informe_ejecutivo.md`](reports/informe_ejecutivo.md)
 
 ## Stack Tecnológico
 `Python` `Pandas` `NumPy` `Matplotlib` `Seaborn` `Plotly`
